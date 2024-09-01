@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.date-picker {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date-picker button {
+  background: #e0e0e0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 5px;
+}
+
+.theaters-list .theater {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.theater .amenities {
+  margin-bottom: 10px;
+}
+
+.showtime-btn {
+  margin: 5px;
+}

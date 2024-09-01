@@ -1,0 +1,43 @@
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h4 {
+    margin-bottom: 20px;
+}
+
+.form-section .form-control {
+    margin-bottom: 15px;
+}
+
+.form-section textarea {
+    resize: none;
+}
+
+.image-preview {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+}
+.container.mt-5 {
+width: 800px;
+background: #efefef;
+padding: 20px;
+border-radius: 10px;
+}
+.text-center {
+text-align: center !important;
+background: #c2f4ff;
+padding: 20px;
+border-radius: 10px;
+}
+form#theaterForm {
+    width: 80%;
+}
+.form-section {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}

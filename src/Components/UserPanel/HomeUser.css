@@ -1,0 +1,228 @@
+.navbar-custom-1 {
+  background-color: rgb(204, 155, 241);
+}
+#logo {
+width: 120px;
+height: auto;
+margin-left: 20px;
+}
+button.btn.btn-primary {
+  background: #ffe3f9;
+  color: black;
+  border: none;
+}
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 32%;
+}
+.navbar-custom-2 {
+  background-color: #d859f8;
+}
+
+.navbar-custom-1 .navbar-brand,
+.navbar-custom-1 .nav-link{
+  color: #000;
+  
+}
+.navbar-custom-2 .navbar-brand,
+.navbar-custom-2 .nav-link {
+  color: #f3f1f1;
+}
+.fa-user-circle-o:before {
+  content: "\f2be";
+  margin-right: 10px;
+}
+
+.play-header{
+  background-color: #d859f8;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+}
+button#dropdownMenuButton {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.city-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.city-section h5 {
+  margin-top: 20px;
+}
+.city-list {
+  margin-bottom: 20px;
+}
+.city-list li {
+  margin-bottom: 10px;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 32%;
+}
+#h-row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y)* -1);
+  margin-right: calc(var(--bs-gutter-x)* -.5);
+  margin-left: calc(var(--bs-gutter-x)* -.5);
+  justify-content: center;
+}
+.city-list li {
+margin-bottom: 10px;
+margin-right: 20px;
+padding: 6px 20px;
+border-radius: 5px;
+border: 2px solid gray;
+}
+.city-list {
+margin-bottom: 20px;
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+margin-right: 5px;
+}
+.city-section h5 {
+margin-top: 20px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid gray;
+}
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  align-content: center;
+  flex-direction: row;
+}
+button.btn.btn-primary {
+  margin-right: 20px;
+}
+#user-offcanvas{
+  content: "\f2be";
+  margin-right: 5px;
+  margin-left: 20px;
+  font-size: 28px;
+}
+#btn-logout {
+  padding: 10px 40px;
+  position: fixed;
+  bottom: 0;
+  left: -20px;
+  width: 400px;
+  background: transparent;
+  color: red;
+  font-size: 22px;
+  font-weight: 700;
+  border: 4px solid red;
+}
+.modal-backdrop.show {
+  opacity: .0;
+}
+
+.btn-outline-light{
+   margin-left:25px ;
+   color: #fbc207;
+   border-radius: 4px;
+   padding: 6px 25px 8px 25px;
+   white-space: nowrap;
+   transition: 0.3s;
+   font-size: 13px;
+   display: inline-block;
+   text-transform: uppercase;
+   font-weight: 400;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: 2px solid rgb(198, 208, 214);
+}
+.btn-outline-light{
+  background-color: rgb(170, 70, 246);
+  color: rgb(244, 250, 250);
+}
+@media  (max-width: 991px)
+{
+  .btn-outline-light{
+
+      margin: 0 48px 0 0;
+      padding: 6px 18px;
+  }
+  
+}
+.carousel-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 30px;
+ padding-right: 60px;
+  
+}
+.container-fluid{
+   padding: 20px 80px ;
+}
+.ad-section {
+  background-color: #f7f8f8;
+  height: 40vh; /* Adjust height as needed */
+}
+.content-section {
+  padding: 0px;
+  background-color:  #f2efed;
+}
+.ad-body img{
+  object-fit: cover;
+}
+.content-placeholder {
+  background-color: #ece4eb;
+  height: auto; /* Adjust height as needed */
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.ad-container
+ {
+  border: 2px solid#ece3ec ;  /* Adds a light border */
+  margin: 15px;
+ }
+.ad-header {
+  background-color: #d859f8; /* Light purple color */
+  padding: 15px;
+  text-align: center;
+  border-bottom: 3px solid #ddd; /* Adds a light border at the bottom of the header */
+}
+.ad-body {
+  background-color:#ece3ec ; /* Light grey color */
+  height: 50%; /* Adjust height as needed */
+  padding: 25px;
+  margin-top: 2px;
+}
+.content-section-header {
+  background-color: #d859f8;
+  padding: 6px;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+}
+.content-section-body{
+  background-color:#9ae3ce; /* Light grey color */
+  height: 500px; /* Adjust height as needed */
+  padding: 25px;
+
+}
+
+.user-avatar{
+  width: 3rem ;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+#movie-desc-home{
+margin-top: 0;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 20px;
+  gap: 10px;
+  flex-direction: column;
+}

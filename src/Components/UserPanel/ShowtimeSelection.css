@@ -1,0 +1,32 @@
+.filter-section {
+    margin-bottom: 20px;
+padding: 10px;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+
+.filter-heading {
+    font-weight: bold;
+}
+
+
+.theater {
+    border: 2px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.theater h5 {
+    margin-bottom: 10px;
+}
+
+.showtime-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+h2.mb-4.text-center {
+background: #ece4ff;
+padding: 10px;
+border-radius: 10px;
+}

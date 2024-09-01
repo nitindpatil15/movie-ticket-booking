@@ -1,0 +1,105 @@
+.manageseats{
+    margin: 5rem;
+}
+
+.manageseats h1{
+    color: black;
+    border-bottom: 2px solid rgb(114, 109, 109);
+    padding-bottom:1rem ;
+}
+.addseats{
+    display: flex;
+    justify-content: space-around;
+}
+.addseats h2{
+    color: black;
+    padding-bottom:1rem ;
+}
+.seatsform{
+    display: flex;
+}
+.seatsform input{
+    color: black;
+    width: 20rem;
+    padding: 1.3rem;
+    border-radius: 0.4rem;
+}
+#add-btn{
+    text-align: center;
+    background-color: rgba(216, 42, 216, 0.458);
+    align-content: center;
+    height: 3rem;
+    border-radius: 0.4rem;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.seats{
+    align-content: center;
+    text-align: center;
+    padding-top: 1.4rem;
+}
+.selectseats{
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+    z-index: -1;
+}
+
+.manageseats {
+    padding: 20px;
+  }
+  
+  .addseats {
+    margin-bottom: 0px;
+  }
+  
+  
+  #add-btn {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table, .th, .td {
+    border: 1px solid #ddd;
+  }
+  #seats{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .th, .td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .seat-label {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+    margin: 1rem;
+    width: 3rem;
+  }
+  
+  .seat-number {
+    margin-left: 8px;
+  }
+  
+  button#add-btn {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
